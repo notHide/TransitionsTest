@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.transitions.everywhere.TransitionManager;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
@@ -68,7 +67,6 @@ public class DragTransitionActivity extends Activity
     private void initImg() {
 
         int height = getResources().getDisplayMetrics().heightPixels / 3 - IndexActivity.sStatusBarHeight;
-        Log.d("DragTransitionActivity", "IndexActivity.sStatusBarHeight:" + IndexActivity.sStatusBarHeight);
 
         FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, height);
         params.topMargin = -height * 2 / 3;
