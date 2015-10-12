@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FAFAFA"
+              android:id="@+id/drag_root">
+    <TextView
+            android:id="@+id/drag"
+            android:layout_width="match_parent" android:layout_height="50dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="拖 拽 这 里"
+            android:textColor="#fff"
+            android:background="#000"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+                android:id="@+id/drag_content"
+            >
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:textSize="16sp"
+                  android:gravity="center_horizontal"
+                  android:text="1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n"/>
+    </ScrollView>
+
+</LinearLayout>

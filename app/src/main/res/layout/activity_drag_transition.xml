@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+    <View android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/dimView"
+          android:background="#000"
+            />
+    <FrameLayout
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:id="@+id/scene_root"
+            >
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerInside"
+                android:id="@+id/headimg"
+                android:background="#f8f8f8"
+                android:src="@mipmap/google_logo"/>
+    </FrameLayout>
+    <com.hide.transitionstest.app.widget.DragLayout
+            android:id="@+id/drag_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+</merge>
