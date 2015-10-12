@@ -7,3 +7,6 @@ Trasition是4.4推出的，中文名字是：过渡动画，使用它可以做�
 Transition内部是对多个属性动画的封装，实现原理是通过记录View的初始状态和结束状态，然后通过属性动画进行播放
 
 这个项目是自己对ViewDragHelper与Transition的一个小练习。
+
+# 截图：  
+![image](https://raw.githubusercontent.com/w9xhc/TransitionsTest/master/screenshoot/result.gif)
